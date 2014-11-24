@@ -118,7 +118,7 @@
                                 "locale": "en"
                             },
                             {
-                                "content": "{{#patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno P ikifuatwa ikifuatiwa na nafasi na jina la mama (maximum of 30 characters).{{/patient_name}}{{^patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno P ikifuatwa ikifuatiwa na nafasi na jina la mama{{/patient_name}}.",
+                                "content": "{{#patient_name}} Muundo wa ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na P ikifuatwa na nafasi na jina la mama (maximum of 30 characters).{{/patient_name}}{{^patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno P ikifuatwa na nafasi na jina la mama{{/patient_name}}.",
                                 "locale": "sw"
                             }
                         ]
@@ -132,7 +132,7 @@
                                 "locale": "en"
                             },
                             {
-                                "content": "Ujumbe huu wa kusajili '{{patient_name}}' si sahihi, tafadhali hakikisha kuwa LMP ni number kati ya 0 na 42.",
+                                "content": "Ujumbe huu wa kusajili '{{patient_name}}' si sahihi, tafadhali hakikisha kuwa namba LMP ni kati ya 0 na 42.",
                                 "locale": "sw"
                             }
                         ]
@@ -147,7 +147,7 @@
                             "locale": "en"
                         },
                         {
-                            "content": "Asante kwa kusajili {{patient_name}}.ID namba yake ya Uja uzito ni {{patient_id}}, na EDD yake ni {{#date}}{{expected_date}}{{/date}}",
+                            "content": "Asante kwa kusajili {{patient_name}}.ID namba yake ya Ujauzito ni {{patient_id}}, na EDD yake ni {{#date}}{{expected_date}}{{/date}}",
                             "locale": "sw"
                         }
                     ],
@@ -189,7 +189,7 @@
                                 "locale": "en"
                             },
                             {
-                                "content": "{{#patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno R ikifuatwa ikifuatiwa na nafasi na jina la mama (maximum of 30 characters).{{/patient_name}}{{^patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno R ikifuatwa ikifuatiwa na nafasi na jina la mama{{/patient_name}}.",
+                                "content": "{{#patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno R ikifuatwa na nafasi na jina la mama (maximum of 30 characters).{{/patient_name}}{{^patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno R ikifuatwa ikifuatiwa na nafasi na jina la mama{{/patient_name}}.",
                                 "locale": "sw"
                             }
                         ]
@@ -237,7 +237,7 @@
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with V followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
                             },{
-                                "content": "{{#patient_id}}Nambari ya ID iliyotumwa si sahihi, yapaswa kuwa nambari 5, tafadhali tuma ID halali.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with V followed by space then the woman's ID.{{/patient_id}}",
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa si sahihi, yapaswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Tafadhali hakikisha ujumbe unaanza na V ikifuatwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
                                 "locale": "sw"
                             }
                         ]
@@ -296,7 +296,7 @@
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with D followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
                             },{
-                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatiwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
                                 "locale": "sw"
                             }
                         ]
@@ -368,7 +368,7 @@
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with F followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
                             },{
-                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatiwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
                                 "locale": "sw"
                             }
                         ]
@@ -1119,7 +1119,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kutoka"
+                    "content": "Kutoka kwa"
                 }
             ]
         },
@@ -1171,7 +1171,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Mfanyakazi wa Afya ya Jamii"
+                    "content": "Wafanyakazi wa Afya ya Jamii"
                 }
             ]
         },
@@ -1327,7 +1327,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Vituo vya Afya"
+                    "content": "Kituo cha Afya"
                 }
             ]
         },
@@ -1509,7 +1509,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Jina la Mawasiliano na Wilaya"
+                    "content": "Jina la Mawasiliano"
                 }
             ]
         },
@@ -1769,7 +1769,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Mahali pa kunadikia panaziada"
+                    "content": "Mahali ziada pa kunadikia"
                 }
             ]
         },
@@ -1925,7 +1925,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Ujumbe unaonekana kama u mtupu."
+                    "content": "Ujumbe unaonekana kama ni mtupu."
                 }
             ]
         },
