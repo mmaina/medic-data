@@ -236,6 +236,9 @@
                             {
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with V followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
+                            },{
+                                "content": "{{#patient_id}}Nambari ya ID iliyotumwa si sahihi, yapaswa kuwa nambari 5, tafadhali tuma ID halali.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with V followed by space then the woman's ID.{{/patient_id}}",
+                                "locale": "sw"
                             }
                         ]
                     }
@@ -247,6 +250,9 @@
                         {
                             "content": "Thank you {{contact.name}}, visit for {{patient_name}} ({{patient_id}}) has been recorded.",
                             "locale": "en"
+                        },{
+                            "content": "Asante {{contact.name}}, kuhudhuria kwa {{patient_name}} ({{patient_id}} kumerekodiwa.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "report_accepted",
@@ -257,6 +263,9 @@
                         {
                             "content": "No woman with ID number '{{patient_id}}' found. Verify the ID and resend the message.",
                             "locale": "en"
+                        },{
+                            "content": "Hakuna mwanamke mwenye nambari ya ID '{{patient_id}}'. Thibitisha ID kisha utume ujumbe tena.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "registration_not_found",
@@ -286,6 +295,9 @@
                             {
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with D followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
+                            },{
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatiwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                                "locale": "sw"
                             }
                         ]
                     },
@@ -296,6 +308,9 @@
                             {
                                 "content": "{{#delivery_code}}The delivery code was not understood. Please use code 'F' for facility, 'S' for homebirth with Skilled Birth Attendant, 'NS' for birth without SBA.{{/delivery_code}}{{^delivery_code}}The delivery code was missing. Please use code 'F' for facility, 'S' for homebirth with Skilled Birth Attendant, 'NS' for birth without SBA.{{/delivery_code}}",
                                 "locale": "en"
+                            },{
+                                "content": "{{#delivery_code}}Kodi ya kuzaa haikueleweka. Tafadhali tumia kodi 'F' kwa kliniki, 'S' kwa nyumbani pakiwa na muuguzi, 'NS' kwa kuzaa pasipokuwa na muuguzi.{{/delivery_code}}{{^delivery_code}}Kodi ya kuzaa haikuwepo. Tafadhali tumia kodi 'F' kwa kliniki, 'S' kwa nyumbani pakiwa na muuguzi, 'NS' kwa kuzaa pasipokuwa na muuguzi.{{/delivery_code}}",
+                                "locale": "sw"
                             }
                         ]
                     }
@@ -307,6 +322,9 @@
                         {
                             "content": "Thank you {{contact.name}} for reporting on {{patient_name}} ({{patient_id}}). No further notifications will be sent for this patient.",
                             "locale": "en"
+                        },{
+                            "content": "Asante {{contact.name}} kwa kuripoti juu ya {{patient_name}} ({{patient_id}}). Arifa zaidi kumhusu huyu mhudumiwa zimesitishwa.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "report_accepted",
@@ -317,6 +335,9 @@
                         {
                             "content": "No woman with ID number '{{patient_id}}' found. Verify the ID and resend the message.",
                             "locale": "en"
+                        },{
+                            "content": "Hakuna mwanamke mwenye nambari ya ID '{{patient_id}}'. Thibitisha ID kisha utume ujumbe tena.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "registration_not_found",
@@ -346,6 +367,9 @@
                             {
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with F followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
+                            },{
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatiwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                                "locale": "sw"
                             }
                         ]
                     }
@@ -357,6 +381,9 @@
                         {
                             "content": "We have added {{patient_name}} ({{patient_id}}) to the flagged pregnancy list. If this is an emergency, please refer her to the clinic immediately.",
                             "locale": "en"
+                        },{
+                            "content": "Tumeongeza {{patient_name}} ({{patient_id}}) kwa orodha ya ujauzito zilizo na tahadhari. Kama ni dharura, mwelekeze kwa kliniki mara moja.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "report_accepted",
@@ -367,6 +394,10 @@
                         {
                             "content": "No woman with ID number '{{patient_id}}' found. Verify the ID and resend the message.",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Hakuna mwanamke mwenye nambari ya ID '{{patient_id}}'. Thibitisha ID kisha utume ujumbe tena.",
+                            "locale": "sw"
                         }
                     ],
                     "event_type": "registration_not_found",
@@ -387,6 +418,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 1,
@@ -400,6 +435,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 1,
@@ -413,6 +452,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 2,
@@ -426,6 +469,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 2,
@@ -439,6 +486,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 3,
@@ -452,6 +503,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 3,
@@ -465,6 +520,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 4,
@@ -478,6 +537,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 4,
@@ -491,6 +554,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 5,
@@ -504,6 +571,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 5,
@@ -517,6 +588,10 @@
                         {
                             "content": "Where did {{patient_name}} deliver? Respond with 'D F {{patient_id}}' for facility birth, 'D S {{patient_id}}' for home birth with SBA, 'D NS {{patient_id}}' for home birth.",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} alizalia wapi? Jubu na 'D F {{patient_id}}' kwa kliniki, 'D S {{patient_id}}' kwa nyumbani pakiwa na muuguzi, 'D NS {{patient_id}}' kwa nyumbani.",
+                            "locale": "sw"
                         }
                     ],
                     "group": 6,
@@ -538,6 +613,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 1,
@@ -551,6 +630,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 1,
@@ -564,6 +647,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 2,
@@ -577,6 +664,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 2,
@@ -590,6 +681,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 3,
@@ -603,6 +698,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 3,
@@ -616,6 +715,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 4,
@@ -629,6 +732,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 4,
@@ -642,6 +749,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 5,
@@ -655,6 +766,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 5,
@@ -668,6 +783,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 6,
@@ -681,6 +800,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 6,
@@ -694,6 +817,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 7,
@@ -707,6 +834,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 7,
@@ -720,6 +851,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 8,
@@ -733,6 +868,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 8,
@@ -746,6 +885,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 9,
@@ -759,6 +902,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 9,
@@ -772,6 +919,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 10,
@@ -785,6 +936,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 10,
@@ -798,6 +953,10 @@
                         {
                             "content": "Please remind {{patient_name}} ({{patient_id}}) to visit health facility for ANC visit this week. When she does let us know with 'V {{patient_id}}'. Thanks!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "Tafadhali mkumbushe {{patient_name}} ({{patient_id}}) ahudhurie kliniki kwa ANC wiki hii. Akishafanya hivyo tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 11,
@@ -811,6 +970,10 @@
                         {
                             "content": "Did {{patient_name}} attend her ANC visit? When she does, respond with 'V {{patient_id}}'. Thank you!",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} amehudhuria ANC? Akishahudhuria, tujulishe na 'V {{patient_id}}'. Asante!",
+                            "locale": "sw"
                         }
                     ],
                     "group": 11,
@@ -824,6 +987,10 @@
                         {
                             "content": "Where did {{patient_name}} deliver? Respond with 'D F {{patient_id}}' for facility birth, 'D S {{patient_id}}' for home birth with SBA, 'D NS {{patient_id}}' for home birth.",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{patient_name}} alizalia wapi? Jubu na 'D F {{patient_id}}' kwa kliniki, 'D S {{patient_id}}' kwa nyumbani paikia na muuguzi, 'D NS {{patient_id}}' kwa nyumbani.",
+                            "locale": "sw"
                         }
                     ],
                     "group": 12,
@@ -849,6 +1016,10 @@
                         {
                             "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with START/STOP followed by space then the woman's ID.{{/patient_id}}",
                             "locale": "en"
+                        },
+                        {
+                            "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa si sahihi, yapaswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Tafadhali hakikisha umeanza na START/STOP ikifuatiwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                            "locale": "sw"
                         }
                     ]
                 }
@@ -860,6 +1031,10 @@
                     {
                         "content": "Thank you {{contact.name}}, no further notifications regarding {{patient_name}} will be sent until you submit 'START {{patient_id}}'.",
                         "locale": "en"
+                    },
+                    {
+                        "content": "Asante {{contact.name}}, arifa zaidi kumhusu {{patient_name}} hazitatumwa hadi utakapowasilisha 'START {{patient_id}}'.",
+                        "locale": "sw"
                     }
                 ],
                 "event_type": "on_mute",
@@ -870,6 +1045,10 @@
                     {
                         "content": "Thank you {{contact.name}}, record for {{patient_name}} ({{patient_id}}) has been reactivated. Notifications regarding this patient will resume.",
                         "locale": "en"
+                    },
+                    {
+                        "content": "Asante {{contact.name}}, rekodi ya {{patient_name}} ({{patient_id}}) imefunguliwa tena. Arifa za mhudumiwa huyu zimerejeshwa.",
+                        "locale": "sw"
                     }
                 ],
                 "event_type": "on_unmute",
@@ -880,6 +1059,10 @@
                     {
                         "content": "No patient with ID number '{{patient_number}}' found.",
                         "locale": "en"
+                    },
+                    {
+                        "content": "Hakuna mhudumiwa mwenye nambari ya ID '{{patient_number}}'.",
+                        "locale": "sw"
                     }
                 ],
                 "event_type": "patient_not_found",
@@ -910,7 +1093,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "kuwasiliana na"
+                    "content": "Kuwasiliana na"
                 }
             ]
         },
@@ -936,7 +1119,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "kutoka"
+                    "content": "Kutoka"
                 }
             ]
         },
@@ -962,7 +1145,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mfanyakazi wa Afya ya Jamii"
                 }
             ]
         },
@@ -988,7 +1171,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mfanyakazi wa Afya ya Jamii"
                 }
             ]
         },
@@ -1014,7 +1197,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Jina kijiji"
+                    "content": "Mji"
                 }
             ]
         },
@@ -1040,7 +1223,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kliniki ya Mawasiliano Jina"
+                    "content": "Jina"
                 }
             ]
         },
@@ -1066,7 +1249,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Namba ya Simu"
+                    "content": "Nambari ya simu"
                 }
             ]
         },
@@ -1092,7 +1275,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "RC Kanuni"
+                    "content": "Kodi"
                 }
             ]
         },
@@ -1118,7 +1301,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kituo cha Afya cha"
+                    "content": "Vituo vya Afya"
                 }
             ]
         },
@@ -1144,7 +1327,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kituo cha Afya cha"
+                    "content": "Vituo vya Afya"
                 }
             ]
         },
@@ -1170,7 +1353,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kituo cha Afya cha Jina"
+                    "content": "Jina la Kituo cha Afya"
                 }
             ]
         },
@@ -1196,7 +1379,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kituo cha Afya cha Mawasiliano Jina"
+                    "content": "Jina la mawasiliano"
                 }
             ]
         },
@@ -1222,7 +1405,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Namba ya Simu"
+                    "content": "Nambari ya simu"
                 }
             ]
         },
@@ -1248,7 +1431,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Wilaya ya"
+                    "content": "Wilaya"
                 }
             ]
         },
@@ -1274,7 +1457,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Wilaya ya"
+                    "content": "Wilaya"
                 }
             ]
         },
@@ -1300,7 +1483,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Wilaya ya Jina"
+                    "content": "Jina la Wilaya"
                 }
             ]
         },
@@ -1326,7 +1509,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Wilaya ya Mawasiliano Jina"
+                    "content": "Jina la Mawasiliano na Wilaya"
                 }
             ]
         },
@@ -1352,7 +1535,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Namba ya Simu"
+                    "content": "Nambari ya simu"
                 }
             ]
         },
@@ -1404,7 +1587,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Kuuza nje"
+                    "content": ""
                 }
             ]
         },
@@ -1456,7 +1639,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Vifaa"
+                    "content": "Vituo"
                 }
             ]
         },
@@ -1482,7 +1665,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": "Taarifa ya Viwango"
+                    "content": "Viwango vya Kufanya Ripoti"
                 }
             ]
         },
@@ -1508,7 +1691,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mpokezi wa ujumbe hapatikani."
                 }
             ]
         },
@@ -1534,7 +1717,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mahali pa kuandikia si halali au hapayuko"
                 }
             ]
         },
@@ -1560,7 +1743,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mahali pa kuandikia si halali au hapayuko"
                 }
             ]
         },
@@ -1586,7 +1769,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Mahali pa kunadikia panaziada"
                 }
             ]
         },
@@ -1612,7 +1795,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Fomu '{{form}}' haipatikani."
                 }
             ]
         },
@@ -1638,7 +1821,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Fomu iliyowasilishwa haitambuliki. Tafadhali kamilisha na utume tena. Hitilafu hii ikiendelea muarifu msimamizi wako."
                 }
             ]
         },
@@ -1664,7 +1847,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Fomu iliyowasilishwa '{{form}}' haikukamilishwa ipasavyo. Tafadhali kamilisha na utume tena. Hitilafu hii ikiendelea muarifu msimamizi wako."
                 }
             ]
         },
@@ -1690,7 +1873,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Fomu iliyowasilishwa '{{form}}' haikukamilishwa ipasavyo. Tafadhali kamilisha na utume tena. Hitilafu hii ikiendelea muarifu msimamizi wako."
                 }
             ]
         },
@@ -1716,7 +1899,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Kituo cha afya hakipatikani."
                 }
             ]
         },
@@ -1742,7 +1925,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Ujumbe unaonekana kama u mtupu."
                 }
             ]
         },
@@ -1768,7 +1951,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Yaonekana kama umetuma ujumbe mtupu, tafadhali jaribu kutuma tena. Ukiendelea kupata hitilafu hii tafadhali muarifu msimamizi wako."
                 }
             ]
         },
@@ -1794,7 +1977,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Fomu uliyowasilisha imepokewa, asante."
                 }
             ]
         },
@@ -1820,7 +2003,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Ujumbe umepokewa; utasomwa hivi punde. Kama ulikuwa unajaribu kuwasilisha ujumbe wa muundo maalum, tafadhali weka kodi sahihi ya fomu na ujaribu tena."
                 }
             ]
         },
@@ -1846,7 +2029,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "ID ya kitengo kinachoripoti si sahihi. Tafadhali rekebisha na uwasilishe fomu kamilifu tena."
                 }
             ]
         },
@@ -1924,7 +2107,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Tarehe ya kuripoti."
                 }
             ]
         },
@@ -1950,7 +2133,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Kliniki"
                 }
             ]
         },
@@ -1976,7 +2159,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Mawasiliano la Kliniki"
                 }
             ]
         },
@@ -2012,7 +2195,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Kituo cha Afya"
                 }
             ]
         },
@@ -2038,7 +2221,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Mawasiliano la Kituo cha Afya"
                 }
             ]
         },
@@ -2074,7 +2257,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Hospitali ya Wilaya"
                 }
             ]
         },
@@ -2110,7 +2293,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Kituo cha Afya"
                 }
             ]
         },
@@ -2136,7 +2319,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Mawasiliano la Kituo cha Afya"
                 }
             ]
         },
@@ -2162,7 +2345,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Jina la Hospitali ya Wilaya"
                 }
             ]
         },
@@ -2240,7 +2423,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Kwa"
                 }
             ]
         },
@@ -2266,7 +2449,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Ujumbe"
                 }
             ]
         },
@@ -2292,7 +2475,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Tukoka kwa"
                 }
             ]
         },
@@ -2318,7 +2501,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Tarehe"
                 }
             ]
         },
@@ -2344,7 +2527,7 @@
                 },
                 {
                     "locale": "sw",
-                    "content": ""
+                    "content": "Siku tangu kuhudhuria kwa mhudumiwa"
                 }
             ]
         },
