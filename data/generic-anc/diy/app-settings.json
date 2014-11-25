@@ -118,7 +118,7 @@
                                 "locale": "en"
                             },
                             {
-                                "content": "{{#patient_name}} Muundo wa ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na P ikifuatwa na nafasi na jina la mama (maximum of 30 characters).{{/patient_name}}{{^patient_name}} Ujumbe huu wa kusajili ANC si sahihi, tafadhali hakikisha umeanza na neno P ikifuatwa na nafasi na jina la mama{{/patient_name}}.",
+                                "content": "{{#patient_name}}Muundo wa usajili si sahihi. Tafadhali jaribu tena ukitumia jina lenye herufi 30 au chini.{{/patient_name}}{{^patient_name}} Muundo wa usajili si sahihi. Tafadhali jaribu tena ukihakikisha ujumbe unaishia na jina la mama.{{/patient_name}}.",
                                 "locale": "sw"
                             }
                         ]
@@ -132,7 +132,7 @@
                                 "locale": "en"
                             },
                             {
-                                "content": "Ujumbe huu wa kusajili '{{patient_name}}' si sahihi, tafadhali hakikisha kuwa namba LMP ni kati ya 0 na 42.",
+                                "content": "Ujumbe huu wa kusajili '{{patient_name}}' si sahihi, tafadhali hakikisha kuwa namba ya LMP ni kati ya 0 na 42.",
                                 "locale": "sw"
                             }
                         ]
@@ -147,7 +147,7 @@
                             "locale": "en"
                         },
                         {
-                            "content": "Asante kwa kusajili {{patient_name}}.ID namba yake ya Ujauzito ni {{patient_id}}, na EDD yake ni {{#date}}{{expected_date}}{{/date}}",
+                            "content": "Asante kwa kusajili {{patient_name}}. ID yake ya Ujauzito ni {{patient_id}}, na EDD yake ni {{#date}}{{expected_date}}{{/date}}",
                             "locale": "sw"
                         }
                     ],
@@ -204,7 +204,7 @@
                             "locale": "en"
                         },
                         {
-                            "content": "Asante {{contact.name}} kwa kusajili {{patient_name}}.ID namba yake ya Kujua ni {{patient_id}}.",
+                            "content": "Asante {{contact.name}} kwa kusajili {{patient_name}}.ID yake ya Kujua ni {{patient_id}}.",
                             "locale": "sw"
                         }
                     ],
@@ -296,7 +296,7 @@
                                 "content": "{{#patient_id}}The ID number submitted is incorrect, it should be 5 numbers, please submit a valid ID.{{/patient_id}}{{^patient_id}}The message format is incorrect. Please ensure send a message start with D followed by space then the woman's ID.{{/patient_id}}",
                                 "locale": "en"
                             },{
-                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa is sahihi, yapswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Hakikisha umeanza na D ikifuatwa na nafasi kisha ID ya mwanamke.{{/patient_id}}",
+                                "content": "{{#patient_id}}Nambari ya ID iliyowasilishwa si sahihi, yapaswa kuwa nambari 5, tafadhali wasilisha ID halali.{{/patient_id}}{{^patient_id}}Muundo wa ujumbe si sahihi. Tafadhali hakikisha ujumbe unaishia na herufi 5 za ID ya mwanamke.{{/patient_id}}",
                                 "locale": "sw"
                             }
                         ]
@@ -323,7 +323,7 @@
                             "content": "Thank you {{contact.name}} for reporting on {{patient_name}} ({{patient_id}}). No further notifications will be sent for this patient.",
                             "locale": "en"
                         },{
-                            "content": "Asante {{contact.name}} kwa kuripoti juu ya {{patient_name}} ({{patient_id}}). Arifa zaidi kumhusu huyu mhudumiwa zimesitishwa.",
+                            "content": "Asante {{contact.name}} kwa kuripoti kumhusu {{patient_name}} ({{patient_id}}).",
                             "locale": "sw"
                         }
                     ],
